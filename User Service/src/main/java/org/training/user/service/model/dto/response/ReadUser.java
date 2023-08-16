@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.training.user.service.model.Status;
 
 @Data
 @AllArgsConstructor
@@ -18,4 +19,6 @@ public class ReadUser {
     private String emailId;
 
     private String contactNumber;
+
+    private Status status;
 }
